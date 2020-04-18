@@ -1,0 +1,56 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  background: -webkit-gradient(
+    linear,
+    40% 99%,
+    62% 10%,
+    from(#6c98a1),
+    to(#565858)
+  );
+}
+
+img {
+  width: 6em;
+  height: 8em;
+  margin-top: 2em;
+}
+textarea {
+  margin-top: 2em;
+  width: 40%;
+  height: 4em;
+  color: blue;
+  font-size: 1em;
+}
+
+button {
+  width: 6em;
+  height: 3em;
+  border-radius: 5px;
+  cursor: pointer;
+  box-shadow: 2px 3px 3px lightpink;
+  background-color: rgb(217, 236, 230);
+  font-family: cursive;
+  font-size: 1em;
+  margin-top: 2em;
+  outline: none;
+}
+
+button:hover {
+  background-color: yellow;
+  color: blue;
+  font-weight: 700;
+}
+button:active {
+  transition: transformY(4px);
+  background-color: rgb(235, 208, 121);
+}
+
+h1 {
+  font-weight: bold;
+  font-family: cursive;
+}
+ol {
+  background-color: rgb(243, 222, 225);
+  font-family: cursive;
+}
